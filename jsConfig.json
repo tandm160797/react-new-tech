@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"module": "es6",
+		"target": "es6",
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		"paths": {
+			"$redux-toolkit/*": ["src/redux-toolkit/*"],
+			"$components/*": ["src/components/*"],
+			"$constants/*": ["src/constants/*"],
+			"$assets/*": ["src/assets/*"],
+			"$themes/*": ["src/themes/*"],
+			"$hooks/*": ["src/hooks/*"],
+			"$api/*": ["src/api/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
